@@ -1,0 +1,10 @@
+num = input('digite alguma coisa? ')
+
+print(f'O tipo primitivo desse valor é: {type(num)}')
+print(f'so tem espaços? {num.isspace()}')
+print(f'é um numerico? {num.isnumeric()}')
+print(f'É alfabetico? {num.isalpha()}')
+print(f'é alfanumerico? {num.isalnum()}')
+print(f'esta em minusculo? {num.islower()}')
+print(f'esta em maisculo? {num.isupper()}')
+print(f'esta capitalizada? {num.istitle()}')
